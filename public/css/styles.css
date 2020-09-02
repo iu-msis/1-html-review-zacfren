@@ -1,0 +1,19 @@
+
+html, body {
+
+  background-color: cornsilk;
+  color: rgb(0,40,120);
+}
+
+nav, .navbar {
+
+  color: cornsilk;
+  background-color: rgb(0,40,120);
+}
+
+
+.cardPane {
+  background-color: #ddd;
+  color: black;
+
+}
