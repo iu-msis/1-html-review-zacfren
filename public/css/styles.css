@@ -15,5 +15,8 @@ nav, .navbar {
 .cardPane {
   background-color: #ddd;
   color: black;
+}
 
+.cardPane.cardPaneLeft {
+  border-right: 2px solid black;
 }
