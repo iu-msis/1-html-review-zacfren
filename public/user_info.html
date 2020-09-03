@@ -43,14 +43,14 @@
 
             <li class="nav-item active">
 
-              <a id="home" class="nav-link" href="index.html"><b>Home</b> <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html"><b>Home</b> <span class="sr-only">(current)</span></a>
 
             </li>
 
 
             <li class="nav-item active">
 
-              <a class="nav-link" href="user_info.html"><b>User Info</b> <span class="sr-only">(current)</span></a>
+              <a id="line" class="nav-link" href="user_info.html"><b>User Info</b> <span class="sr-only">(current)</span></a>
 
             </li>
 
@@ -89,7 +89,7 @@
             </thead>
             <tbody>
               <tr>
-                <td><img src="img/fake_user.png" width="70" height="60"></td>
+                <td><img src="img/lego1.jpg" width="70" height="60"></td>
                 <td>Tom</td>
                 <td>United States</td>
                 <td>4/15/1985</td>
@@ -98,7 +98,7 @@
 
               </tr>
               <tr>
-                <td><img src="img/fake_user.png" width="70" height="60"></td>
+                <td><img src="img/lego2.jpg" width="70" height="60"></td>
                 <td>Joseph</td>
                 <td>Mexico</td>
                 <td>2/22/1970</td>
@@ -108,7 +108,7 @@
               </tr>
               <tr>
 
-                <td><img src="img/fake_user.png" width="70" height="60"></td>
+                <td><img src="img/lego3.jpg" width="70" height="60"></td>
                 <td>Henry</td>
                 <td>Canada</td>
                 <td>7/4/1992</td>
@@ -120,10 +120,51 @@
           </table>
 
 
+          <form>
+            <div class="form-group">
+
+              <label for="input_photo">Profile Picture</label>
+              <input type="file" class="form-control-file" id="input_photo">
+              <br>
+
+
+              <label for="name_input">Name</label>
+              <input type="text" class="form-control"  id="name_input" placeholder="Insert Name">
+              <br>
+
+
+              <label for="country_input">Select Country of Origin</label>
+              <select class="form-control" id="country_input">
+              <option>United States</option>
+              <option>Canada</option>
+              <option>Mexico</option>
+              </select>
+              <br>
+
+              <label for="dob_input">Date of Birth</label>
+              <input type="date" class="form-control"  id="name_input" placeholder="Insert Date of Birth">
+              <br>
+
+              <label for="age_input">Age</label>
+              <input type="number" class="form-control"  id="name_input" placeholder="Insert Age">
+              <br>
+
+
+              <label for="email_input">Email Address</label>
+              <input type="email" class="form-control" id="email_input" placeholder="name@email.com">
+              <br>
+
+
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+          <br><br>
+
+
               <div class="footer">
-                <p><b> Citations: </b></p>
-                <p> Citation 1 </p>
-                <p> Citation 2 </p>
+                <p><b> Citation of Photos: </b></p>
+                <p>Armstrong, Keith. “Lego Person.” <i>Profile Photos</i>, randomuser.me/photos.</p>
               </div>
 
 
