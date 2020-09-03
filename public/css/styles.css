@@ -42,3 +42,18 @@ a:visited {
 a:hover {
   color: blue;
 }
+
+h2 {
+  color: plum;
+  text-align: center;
+}
+
+#footer1 {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: plum;
+  color: white;
+  text-align: center;
+}
